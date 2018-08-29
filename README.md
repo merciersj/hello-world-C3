@@ -9,6 +9,12 @@ This simple project will be used for various events.  The challenge will be orga
   * What they would have done differently if given more time.
   * One thing they learned as part of the exercise.
 
+## Tool Setup ##
+For this challenge, you will need to install the following tools:
+* Tortoise GIT: https://tortoisegit.org/download/
+* IntelliJ: https://www.jetbrains.com/idea/download/#section=windows
+* JDK 8: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
 ## Importing the Application ##
 After checking out, import the application as a Maven project into your preferred IDE.
 
