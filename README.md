@@ -15,6 +15,13 @@ For this challenge, you will need to install the following tools:
 * IntelliJ: https://www.jetbrains.com/idea/download/#section=windows
 * JDK 8: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
+## Team Setup ##
+Before cloning, create a new branch from the master for your team.  Please use the naming convention:
+```
+feature/YYYY-MM-DD/team-XX
+```
+Team mentors will need to make a different branch for each day.  For example, if you lead a team on Tuesday and a team on Friday, each needs their own branch to push to separately.
+
 ## Importing the Application ##
 After checking out, import the application as a Maven project into your preferred IDE.
 
@@ -32,6 +39,9 @@ To build, add a new run config with the following maven command:
 ```
 exec:java
 ```
+
+## Submitting Your Team's Entry ##
+To officially submit your team's final entry, commit your code to the branch you created for your team.  Please ensure the Junit test passes before submitting.
 
 ## A Note on JDKs ##
 This project has been designed to run with Java 8.  Run on another JDK at your own risk :)
