@@ -26,3 +26,6 @@ To build, add a new run config with the following maven command:
 ```
 exec:java
 ```
+
+## A Note on JDKs ##
+This project has been designed to run with Java 8.  Run on another JDK at your own risk :)
