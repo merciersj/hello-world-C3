@@ -18,7 +18,7 @@ For this challenge, you will need to install the following tools:
 ## Team Setup ##
 Before cloning, if a branch was not already assigned to you, create a new branch from the master for your team.  Please use the naming convention:
 ```
-feature/YYYY-MM-DD/team-XX
+feature/YYYY-MM-DD/session-##/team-XX
 ```
 Team mentors will need to make a different branch for each day.  For example, if you lead a team on Tuesday and a team on Friday, each needs their own branch to push to separately.
 
