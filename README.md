@@ -16,7 +16,7 @@ For this challenge, you will need to install the following tools:
 * JDK 8: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 ## Team Setup ##
-Before cloning, create a new branch from the master for your team.  Please use the naming convention:
+Before cloning, if a branch was not already assigned to you, create a new branch from the master for your team.  Please use the naming convention:
 ```
 feature/YYYY-MM-DD/team-XX
 ```
