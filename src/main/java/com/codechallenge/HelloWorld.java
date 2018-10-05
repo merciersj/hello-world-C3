@@ -152,7 +152,7 @@ System.out.print(c[i]);
     public static void argzrgdrg() {
     	beforesecond(); 
         filledwithwords(); 
-        afterfirst; 
+        afterfirst(); 
     }
     
     
