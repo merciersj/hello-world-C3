@@ -6,25 +6,25 @@ package com.codechallenge;
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        
+
+    	argzrgdrg(); 
         
     }
     
-    public static String beforesecond ()
+    public static void beforesecond ()
     {
     		int i =4; 
     			char[] a = geth();
     			char[]b=gete();
-    	System.out.println(a[i]);
-    		System.out.println(b[i]);
+    	System.out.print(a[i]);
+    		System.out.print(b[i]);
     		char[]c=getl();
     		
     			char[]d=getl();
     		char[]e=geto();
-  System.out.println(c[i]);
-    		System.out.println(d[i]);
-    									System.out.println(e[i]);
+  System.out.print(c[i]);
+    		System.out.print(d[i]);
+    									System.out.print(e[i]);
     									
     									/*System.out.println(a[i]);
     						    		System.out.println(b[i]);*/
@@ -35,30 +35,30 @@ public class HelloWorld {
     	
     }
     
-    public static String filledwithwords ()
+    public static void filledwithwords ()
     {
     	
     int i = 4; 
     char [] z = gets(); 
-    System.out.println(z[i]);
+    System.out.print(z[i]);
     
     		
     }
     
-    public static String afterfirst ()
+    public static void afterfirst ()
     {
     	int i =4; 
 		char[] a = getw();
 		char[]b=geto();
-System.out.println(a[i]);
-	System.out.println(b[i]);
+System.out.print(a[i]);
+	System.out.print(b[i]);
 	char[]c=getr();
 	
 		char[]d=getl();
 	char[]e=getd();
-System.out.println(c[i]);
-	System.out.println(d[i]);
-								System.out.println(e[i]);
+System.out.print(c[i]);
+	System.out.print(d[i]);
+								System.out.print(e[i]);
 								
 								/*System.out.println(a[i]);
 					    		System.out.println(b[i]);*/
@@ -147,7 +147,13 @@ System.out.println(c[i]);
     char[i]=' ';
     		}
     		return 1; 
-    }    
+    }  
+    
+    public static void argzrgdrg() {
+    	beforesecond(); 
+        filledwithwords(); 
+        afterfirst; 
+    }
     
     
     
