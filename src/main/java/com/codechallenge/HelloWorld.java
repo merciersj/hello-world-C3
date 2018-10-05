@@ -34,9 +34,41 @@ public class HelloWorld {
         bye.put(z,z);
         bye.put(x,x);
 
-      //  if(bye.key(a))
+        if(bye.get(a) == 'H'){
+            System.out.print(bye.get(a));
+        }
+        if(bye.get(b) == 'e'){
+            System.out.print(bye.get(b));
+        }
+        if(bye.get(c) == 'l'){
+            System.out.print(bye.get(c));
+        }
+        if(bye.get(d) == 'l'){
+            System.out.print(bye.get(d));
+        }
+        if(bye.get(e) == 'o'){
+            System.out.print(bye.get(e));
+        }
+        if(bye.get(f) == ' '){
+            System.out.print(bye.get(f));
+        }
+        if(bye.get(i) == 'W'){
+            System.out.print(bye.get(i));
+        }
+        if(bye.get(j) == 'o'){
+            System.out.print(bye.get(j));
+        }
+        if(bye.get(k) == 'r'){
+            System.out.print(bye.get(k));
+        }
+        if(bye.get(z) == 'l'){
+            System.out.print(bye.get(z));
+        }
+        if(bye.get(x) == 'd'){
+            System.out.print(bye.get(x));
+        }
 
-            System.out.println("Hello World");
+        System.out.println("");
 
     }
 }
