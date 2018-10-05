@@ -30,9 +30,12 @@ public class HelloWorld {
             if(userChoice.equals("lizard")){
                 userWin = true;
             }
-            if(userChoice.equals("paper"))
+            else if(userChoice.equals("paper"))
             {
                 userWin = true;
+            }
+            else{
+                System.out.println("WRONG choice!");
             }
 
         }
