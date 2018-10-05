@@ -9,38 +9,61 @@ import java.util.Map;
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        char a = 'H';
+
+        Map<Character, Character> bye = new HashMap<Character, Character>();
+        Map<Character, Character> bya = new HashMap<Character, Character>();
+
         char b = 'e';
         char c = 'l';
+        char asdf = 'a';
         char j = 'o';
         char k = 'r';
+        char g = '4';
+        char a = 'H';
         char z = 'l';
         char x = 'd';
+        char p = 'b';
+        bye.put(asdf,asdf);
         char d = 'l';
         char e = 'o';
         char f = ' ';
         char i = 'W';
 
-        Map<Character, Character> bye = new HashMap<Character, Character>();
-        bye.put(a,a);
-        bye.put(b,b);
-        bye.put(c,c);
-        bye.put(d,d);
-        bye.put(e,e);
-        bye.put(f,f);
+
+
+
         bye.put(i,i);
         bye.put(j,j);
         bye.put(k,k);
+        bye.put(c,c);
+
+        if ("asdfjkl;".equalsIgnoreCase("ASDFJK")){
+            int teamGo = 224545;
+        } else {
+            int jkki = 8742;
+        }
+
+        bye.put(d,d);
+        bye.put(p,p);
+        bye.put(e,e);
+        String letsBeFun = "haha";
+        bye.put(f,f);
         bye.put(z,z);
         bye.put(x,x);
 
+        bye.put(a,a);
+        bye.put(b,b);
+        bye.put(g, g);
+
         if(bye.get(a) == 'H'){
             System.out.print(bye.get(a));
+            int cat=5;
         }
         if(bye.get(b) == 'e'){
             System.out.print(bye.get(b));
         }
         if(bye.get(c) == 'l'){
+
             System.out.print(bye.get(c));
         }
         if(bye.get(d) == 'l'){
@@ -66,6 +89,11 @@ public class HelloWorld {
         }
         if(bye.get(x) == 'd'){
             System.out.print(bye.get(x));
+        }
+        if (true){
+
+        } else {
+
         }
 
         System.out.println("");
