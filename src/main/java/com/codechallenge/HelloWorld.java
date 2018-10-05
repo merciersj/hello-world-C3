@@ -8,22 +8,32 @@ import java.util.Scanner;
  */
 public class HelloWorld {
     public static void main(String[] args) {
+        performGame();
         System.out.println("Hello World");
 
 
     }
 
-    public static boolean performGame(){
-        boolean userWin;
-        String[] names = {"lizard", "rock", "paper", "scissor", "spock"}
+    public static void performGame(){
+        boolean userWin = false;
+        String[] names = {"lizard", "rock", "paper", "scissor", "spock"};
         Scanner input = new Scanner(System.in);
 
-        while(input.nextLine())
+
+        while(!userWin)
         {
             Random num = new Random();
             int comp= num.nextInt(4);
             System.out.print("Enter rock, paper, scissor, lizard, or spock: ");
-            String choice = input.nextLine();
+            String userChoice = input.nextLine();
+            String computerChoice = names[4];
+            if(userChoice.equals("lizard")){
+                userWin = true;
+            }
+            if(userChoice.equals("paper"))
+            {
+                userWin = true;
+            }
 
         }
 
